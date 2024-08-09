@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url(https://wallpaperaccess.com/full/4230797.jpg);
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+}
+.abc{
+    background-color: rgb(19, 157, 79);
+    position:fixed;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    border:10px solid black;
+    border-radius: 2px;
+    padding:10px;
+     
+}
+.calculator {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    background: #222;
+    color: #fff;
+    font-size: 4em;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: px;
+    background-color: black;
+}
+
+
+.btn {
+    background: #60a5ea;
+    border: none;
+    padding: 20px;
+    font-size: 1.2em;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #b92c2c;
+}
